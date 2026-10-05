@@ -1,1 +1,1 @@
-# tenpura
+A TV-style browse app built with React and TypeScript, navigated with arrow keys.
