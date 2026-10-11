@@ -113,3 +113,11 @@ let ladder = {
 
 ladder.up().up().down().showStep(); // shows 1
 
+let id = Symbol("id"); // creates a unique symbol with the description "id"
+let user2 = {
+    name: "John",
+    age: 30,
+    [id]: 123 // uses the symbol as a property key
+};  
+
+console.log(user2[id]); // prints 123, accesses the property with the symbol key
